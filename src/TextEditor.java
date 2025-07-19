@@ -40,7 +40,7 @@ public class TextEditor implements ActionListener {
         exit = new JMenuItem("Exit");
 
         // initializing file chooser
-        fileChooser = new JFileChooser("G://learn//accio job");
+        fileChooser = new JFileChooser("G://learn//folder-name");
 
         // initializing date and time for file name
         formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
